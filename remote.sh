@@ -5,8 +5,9 @@ read -p "enter username " username
 echo "username "
 read -p "enter passwd " passwd
 echo "passwd "
-if [ $username = "admin" -a  $passwd = "Administrator123" ]
+if [ $username == "admin" -a  $passwd == "Administrator123" ]
 then
+elif [ $username = "developer" -a $passwd == "javapyton@123" ]
         echo "authentication is sucessful "
 else
         echo "authenticaton is unsucessful "
