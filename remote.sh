@@ -13,11 +13,12 @@ else
         echo "authenticaton is unsucessful "
 fi
         read -p "enter the character" char
-        if [ $char == "a" ] // [ $char == "e" ] // [ $char == "i" ] // [ $char == "o" ] // [ $char == "u" ]
+        if [ $char == "a" ] // [ $char == "e" ] // [ $char == "i" ] // [ $char == "o" ] // [ $char == "u" ] [ $char == "A" ] // [ $char == "E" ] // [ $char == "I" ] // [ $char == "O" ] // [ $char == "U" ]
+
         then
-                echo "character is not vowels "
+                echo "character is  vowels "
         else
-                echo "character is vowels "
+                echo "character is not vowels "
         fi
         echo "gender age"
         read -p "enter the age " age
