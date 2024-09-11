@@ -30,4 +30,9 @@ fi
                 echo " teenager "
         else [ $age -gt 20 ]
                 echo "adult "
+	fi
+	if [ $age -ge 60 ]
+	then
+		echo "oldage "
+	fi
 
